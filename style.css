@@ -5,7 +5,7 @@
 }
 
 body {
-    
+    background-image:url(assets/background.jpg);
     font-family: "Poppins", sans-serif;;
 }
 
@@ -35,7 +35,9 @@ nav {
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 401;
+
 }
 
 a {
@@ -52,6 +54,7 @@ a:hover {
 
 .name {
     font-size: 2rem;
+    font-weight: 401;
 }
 
 .name:hover {
@@ -199,7 +202,6 @@ a:hover {
     gap: 1rem;
 }
 
-
 /* ICONS */
 
 .icon {
@@ -289,7 +291,7 @@ a:hover {
 .details_container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: wheat;
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(163,163,163);
@@ -354,7 +356,7 @@ article .icon {
 
 .color-container {
     border-color: rgb(163,163,163);
-    background: rgb(250,250,250);
+    /* background: rgb(250,250,250); */
 }
 
 .project_img {
@@ -388,7 +390,7 @@ article .icon {
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;;
     border-color: rgb(163,163,163);
-    background: rgb(250,250,250);
+    background: wheat;
     margin: 2rem auto;
     padding: 0.5rem;
 }
